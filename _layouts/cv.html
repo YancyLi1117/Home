@@ -8,9 +8,19 @@ rel="stylesheet"
 />
 <article class="page">
 
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'SDE')">SDE</button>
+    <button class="tablinks" onclick="openCity(event, 'MLE')">MLE</button>
   </div>
+  <div id="SDE" class="tabcontent">
+    <div class="entry">
+      {{ content }}
+    </div>
+  </div>
+  
+  <div id="MLE" class="tabcontent">
+    
+  </div>
+
+  
 </article>

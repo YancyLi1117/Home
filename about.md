@@ -11,7 +11,11 @@ permalink: /about/
  - Honors B.Eng., Computer Science  \| Minor in Economic Statistics 
  - Major GPA: 3.32/4.0   \| Average Score:83.04/100
 
-## Project
+## Skills
+ - **Languages**: Java, Python, JavaScript, HTML, CSS, Kotlin, R   
+ - **Framework/Library**: ReactJS, Meterial UI, Jetpack Compose, Node.js, Numpy, Pandas     
+ - **Database**: MySQL, Neo4j     
+ - **Tools**: Linux, Git, AWS
 
 ## Internship
 ### **SUFE Data Clinic**, Shanghai ---*MLE Intern* `Jun.2020 ~ Sep.2020`
