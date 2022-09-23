@@ -9,18 +9,24 @@ rel="stylesheet"
 <article class="page">
 
   <div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'SDE')">SDE</button>
-    <button class="tablinks" onclick="openCity(event, 'MLE')">MLE</button>
+    <a href=" /about/SDE">
+      <button class="tablinks">SDE</button>
+    </a>
+    <a href=" /about/MLECV">
+      <button class="tablinks">MLE(CV)</button>
+    </a>
+    <a href=" /about/MLENLP">
+      <button class="tablinks">MLE(NLP)</button>
+    </a>
+    <a href=" /about/DA">
+      <button class="tablinks">Data Anaysis</button>
+    </a>
+  
   </div>
-  <div id="SDE" class="tabcontent">
+  
     <div class="entry">
       {{ content }}
     </div>
-  </div>
-  
-  <div id="MLE" class="tabcontent">
-    
-  </div>
 
   
 </article>

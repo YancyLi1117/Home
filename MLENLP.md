@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /about/
+permalink: /about/MLENLP
 ---
 ## Education
 ### **University of Waterloo**, Canada `Sep.2021 ~ Dec.2022(Expected)`   
@@ -19,8 +19,8 @@ permalink: /about/
 
 ## Internship
 ### **SUFE Data Clinic**, Shanghai ---*MLE Intern* `Jun.2020 ~ Sep.2020`
- - Participated in the project of Floor Defect Detection, searched for applicable algorithms, and preliminarily decided to use SSD, Faster-RCNN, and YOLO
- - Conducted the detectron2 framework on the server, compared the results of the three models, chose Faster-RCNN for detection with an FPN structure. After adjusting the parameters, the AP reached 0.48  
+ - Participated in the project of Floor Defect Detection for a Floor Company, using labelImg to label the raw images
+ - Conducted the **detectron2** framework on the server, compared the results of three models: **SSD**, **Faster-RCNN**, and **YOLO**, chose Faster-RCNN for detection with an FPN structure. After adjusting the parameters, the AP reached 0.48  
 
 ### **Guotai Junan Securities Co., Ltd**, Shanghai ---*Quantitative Analyst Intern*`Dec.2019 ~ Mar.2020`
  - Conducted the quantitative weekly reports and data collection of quantitative factors independently
@@ -29,6 +29,14 @@ permalink: /about/
 ### **VeChain Tech**, Shanghai ---*Data Analysis Intern* `Apr.2019 ~ Oct.2019`
  -  Acquired main network information from the server, analyzed the data and made weekly reports
  -  Classified the addresses of digital currency exchange via machine learning based on characteristics of transaction frequency and amount, and predicted the new address types
+
+## Project
+
+### Product Launch Analysis Based on Amazon Review `Mar. 2020`
+ - Used **Latent Dirichlet Allocation** to extract the commodity characteristics discussed in 50,000 comments, and drew the word cloud
+ - Quantified the emotional tendency in the reviews by **byte-level multiplicative LSTM** trained on Amazon reviews. Studied which product functions are more popular with consumers
+ - Won Honorable Prize in Mathematical Modeling Contest of American College Students
+
 
 ## Honors & Awards
 Second-Class People’s Scholarship (3/45) `SUFE, May 2021`    
