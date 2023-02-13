@@ -12,11 +12,9 @@ favicon: https://i.postimg.cc/cCfHdCfJ/image.png
 
 
 navigation:
-  - name: Homepage
-    url: /
-  - name: Resume
+  - name: About Me
     url: /about
-  - name: Archive
+  - name: Blogs
     url: /archive
   - name: Tags
     url: /tags
