@@ -13,8 +13,8 @@ permalink: /about/DS
 
 ## Skills
  - **Languages**: Python, Java, R, JavaScript
- - **Frameworks & Libraries**: NumPy, Pandas, scikit-learn, Matplotlib, PyTorch, Hadoop
- - **Databases & Tools**: MySQL, Neo4j, AWS, Google Cloud Platform, Navicat, Git, Linux, Excel, Power BI
+ - **Frameworks & Libraries**: NumPy, pandas, scikit-learn, Matplotlib, PyTorch, Hadoop
+ - **Databases & Tools**: MySQL, Neo4j, MongoDB, Amazon RDS, Google Cloud SQL, Navicat, Git, Linux, Excel, Power BI
 
 ## Internship
 
@@ -23,7 +23,7 @@ permalink: /about/DS
  - Utilized WIND and iFinD data terminal to collect data of A-share listed companies and used **multiple linear regression** to verify the significance of the related factors. Wrote the report “The Negative Impact of Tax Avoidance on Companies”
 
 ### **VeChain Tech** ---*Data Analysis Intern* `Apr.2019 ~ Oct.2019 | Shanghai, China`
- -  Acquired 100K+ transaction information from the database, deployed the automatic script to clean, analyze and visualize the raw data using **Python**, and made weekly reports
+ -  Acquired 100K+ transaction information with **MongoDB**, deployed the automatic script to clean, analyze and visualize the raw data using **Python**, and made weekly reports
  -  To identify the abnormal transactions, classified and labelled the digital currency accounts via **kNN** based on transaction frequency and amount characteristics, reaching an accuracy of **92.4%**
 
 ## Project
@@ -33,7 +33,7 @@ permalink: /about/DS
  - Provided the investment strategies for for Great Lakes Midwest Bank. Selected *Credit Score* and *Debt to Income Ratio* as the main factor using **Random Forest** to minimize the risk of default loan
 
 ### **CONVSET Enterprise Information Website** --- *Python, SQL, JavaScript, Neo4j* `Mar. ~ Jun. 2021 | Shanghai, China`
- - Crawled the information of all A-share listed companies from relevant websites. Designed and maintained the database on AWS RDS with **MySQL** and display the stock information by **ECharts**
+ - Crawled the information of all A-share listed companies from relevant websites. Designed and maintained the database on Amazon RDS with **MySQL** and display the stock information by **ECharts**
  - Utilized **Bi-LSTM-CRF** model to recognize the named entity and extracted the features of the executives. Storage the features by **Neo4j** and visualized the executive network by **D3** on the website
  
 ### **Product Launch Analysis Based on Amazon Review** ---  *Python*  `Mar. 2020 | Shanghai, China`
