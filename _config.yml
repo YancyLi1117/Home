@@ -56,7 +56,7 @@ gitalk:
   clientSecret: 33091b7f3b94430328e66a24872a761959184991
   repo: YancyLi1117.github.io
   owner: YancyLi1117
-  proxy: https://YancyLi1117.github.io/login/oauth/33091b7f3b94430328e66a24872a761959184991
+  proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token
 
 # 输入Google Analytics web tracking code
 google_analytics:
