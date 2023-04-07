@@ -48,14 +48,14 @@ footer-text: Copyright (c) 2022 from Waterloo
 #
 
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点
-disqus: yancy #shortname
+disqus: #shortname
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
-  clientID: 
-  clientSecret: 
-  repo: 
-  owner: 
+  clientID: 1ec73fc0fe4217877bdd
+  clientSecret: 33091b7f3b94430328e66a24872a761959184991
+  repo: YancyLi1117.github.io
+  owner: YancyLi1117
   proxy:
 
 # 输入Google Analytics web tracking code

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mathematical Statistics
+title: Statistics Basic Theory
 date: 2023-01-26
 Author: Yancy
 tags: [Stat]
@@ -9,8 +9,6 @@ toc: true
 ---
 
 统计学分为描述性统计和推断统计两大部分。描述性统计可以继续细分为图表法和数值法。而推断统计则包含概率论、抽样理论、估计理论、假设检验这四大组成部分。
-
-## Basic Theory
 
 [some basic theory](https://zhuanlan.zhihu.com/p/77312635)
 
