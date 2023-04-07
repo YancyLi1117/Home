@@ -8,8 +8,6 @@ comments: true
 toc: true
 ---
 
-# A/B Testing
-
 > Udacity A/B testing notebook
 >
 > notability notes: https://notability.com/n/in~CqsQl1aNsvE8mXX3Mn
