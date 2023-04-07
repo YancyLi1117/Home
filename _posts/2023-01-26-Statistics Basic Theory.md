@@ -12,6 +12,7 @@ toc: true
 
 [some basic theory](https://zhuanlan.zhihu.com/p/77312635)
 
+## Basic Theory
 ### Central limit theorem (CLT)
 
 The Central Limit Theorem (CLT) states that when plotting a sample distribution of mean the **mean of the sample will be equal to the population mean** and **the sample distribution will approach normal distribution with variance equal to standard error.** 
@@ -49,3 +50,60 @@ suitable experimental design and  dispersed between the sample group:
 **Randomized block design**: the study data are grouped into subgroups according to their similar characteristics. Reduce the consequences of confounding variables.
 
 **Minimization**: randomly distributes subjects to equivalent groups and the likely confounding variables are equally distributed
+
+## Probability
+
+### Bayes’ Theorem
+
+$$
+p(A|B)=\frac{P(B|A)P(A)}{P(B)}
+$$
+
+### Law of Total Probability
+
+Let S be a sample space and A1, . . . , An a partition of S. Then
+
+$$
+P(B)=P(B \cap A_1)+...+P(B\cap A_n)=P(B|A_1)P(A_1)+...+P(B|A_n)P(A_n)
+$$
+
+Two events A and B are conditionally independent of an event
+$$
+P((A \cap B) | C) = P(A|C)P(B)
+$$
+
+### Joint Probability
+
+Let X,Y be random variables. Their joint CDF is given by $F(x,y)=P(X≤x,Y ≤y)$
+
+In the discrete case, X and Y have a joint PMF given by $P(X=x,Y =y)$
+
+and in the continuous case, X and Y have a joint PDF given by $f(x,y)=\frac{\partial}{\partial x \partial y}F(x,y)$
+
+and we can compute $P((X,Y)\in B)=\int\int_B f(x,y)\mathrm{d}x\mathrm{d}y $
+
+Their separate CDFs and PMFs (e.g., P(X ≤ x)) are referred to as marginal CDFs, PMFs, or PDFs. X and Y are independent precisely when the the joint CDF is equal to the product of the marginal CDFs: $F(x,y) = F_X(x)F_Y (y)$
+
+### Covariance
+
+判断正相关还是负相关
+
+The covariance of random variables X and Y is $Cov(X,Y)=E((X−EX)(Y −EY))$, [-∞,∞]
+
+We can use covariance to compute the variance of sums:
+
+$$
+Var(X + Y ) = Cov(X, X) + Cov(X, Y ) +Cov(Y,X)+Cov(Y,Y) \\= Var(X) + 2 Cov(X, Y ) + Var(Y )
+$$
+
+**Theorem**: If X,Y are independent, then Cov(X, Y ) = 0 
+
+But! **The converse of the above is false.** Let Z ∼ N(0,1), X = Z, Y = Z2, and let us compute the covariance=0. But X and Y are very dependent since Y is a function of X.
+
+### Correlation
+
+协方差除了XY各自的标准差，刻画XY之间联动性的强弱
+
+The correlation of two random variables X and Y is $Cor(X,Y) r=\frac{Cov(X,Y)}{S_XS_Y}$, [-1,1]
+
+**协方差和相关系数都是描述线性关系**
