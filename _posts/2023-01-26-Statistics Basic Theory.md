@@ -2,7 +2,7 @@
 layout: post
 title: Statistics Basic Theory
 date: 2023-01-26
-Author: Yancy
+author: Yancy
 tags: [Stat]
 comments: true
 toc: true

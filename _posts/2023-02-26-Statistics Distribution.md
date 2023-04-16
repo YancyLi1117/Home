@@ -2,7 +2,7 @@
 layout: post
 title: Statistics Distribution
 date: 2023-02-26
-Author: Yancy
+author: Yancy
 tags: [Stat]
 comments: true
 toc: true

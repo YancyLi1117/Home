@@ -2,7 +2,7 @@
 layout: post
 title: Database Leetcode
 date: 2022-12-02
-Author: Yancy
+author: Yancy
 tags: [Database]
 comments: true
 toc: true

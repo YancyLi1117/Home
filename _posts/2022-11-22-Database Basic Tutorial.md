@@ -2,7 +2,7 @@
 layout: post
 title: Database Basic Tutorial
 date: 2022-11-20
-Author: Yancy
+author: Yancy
 tags: [Database]
 comments: true
 ---

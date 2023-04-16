@@ -2,7 +2,7 @@
 layout: post
 title: A/B Testing
 date: 2023-04-06
-Author: Yancy
+author: Yancy
 tags: [Testing]
 comments: true
 toc: true

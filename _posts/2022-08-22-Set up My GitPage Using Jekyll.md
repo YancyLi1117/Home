@@ -2,7 +2,7 @@
 layout: post
 title: Set up My GitPage Using Jekyll
 date: 2022-08-22
-Author: Yancy 
+author: Yancy 
 tags: [Daily]
 comments: true
 ---

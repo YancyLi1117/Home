@@ -2,7 +2,7 @@
 layout: post
 title: Git Tutorial
 date: 2023-04-14
-Author: Yancy
+author: Yancy
 tags: [Daily]
 comments: true
 toc: false
