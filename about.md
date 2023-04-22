@@ -4,12 +4,12 @@ permalink: /about
 ---
 <article class="page">
 
-  
+
    
-  
-  
 
   
+
+
 </article>
 
 # Hi there! This is Yancy Li
