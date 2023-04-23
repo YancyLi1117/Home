@@ -119,7 +119,7 @@ cross-entropy: A random variable compares true distribution A with approximated 
 
 $H(P,Q)=-\sum_xP(x)\log Q (x)$
 
-relative entropy: Kullback–Leibler divergence, a measure of how one probability distribution is different from a second, reference probability distribution. $KL(P|Q)=\sum_xP(x)\log\frac{P(x)}{Q(x)}$
+relative entropy: Kullback–Leibler divergence, a measure of how one probability distribution is different from a second, reference probability distribution. $KL(P\|Q)=\sum_xP(x)\log\frac{P(x)}{Q(x)}$
 
 ## Overfitting and Underfitting
 
