@@ -69,11 +69,57 @@ ROC curve兼顾正例与负例，适用于评估分类器的整体性能， P-Rc
 
 **F1 score=**$2\frac{precision*recall}{precision+recall}$, dealing with imbalanced classes problems
 
-### Regression
+### Loss Functions
 
-**MAE, Mean Absolute Error** =$\frac{1}{m}\sum^m_{i=1}(f(x_i)-y_i)^2$
+#### MSE
 
-**MSE, Mean Squared Error** =$\frac{1}{m}\sum^m_{i=1}\|f(x_i)-y_i\|$
+$$
+MSE=\frac{1}{m}\sum^m_{i=1}(f(x_i)-y_i)^2
+$$
+
+Mean Square Error / Quadratic Loss / L2 Loss, used in linear regression
+
+#### MAE
+
+$$
+MAE=\frac{1}{m}\sum^m_{i=1}\lvert f(x_i)-y_i\rvert
+$$
+
+Mean Absolute Error / L1 Loss. The MAE loss function is **more robust to outliers** compared to the MSE loss function.
+
+outliers对于业务是有用的，希望考虑到这些outliers--MSE; outliers只是无用的noise---MAE
+
+#### Log Loss
+
+**Binary Cross-entropy loss function**, used in logistic regression
+
+$$
+Log\ Loss=-\frac{1}{m}\sum_{i=1}^my_i \log f(x_i)
+$$
+
+when the number of classes is 2, it’s binary classification: $Loss=-\frac{1}{m}\sum_{i=1}^m(y_i\log f(x_i)+(1-y_i)\log(1-f(x_i))$
+
+Log loss is a good choice when penalizing classifiers confident about an incorrect classification.
+
+#### Hinge Loss
+
+penalizes the wrong predictions and the right predictions that are not confident.
+
+$$
+Loss=\max(0,1-y*f(x))
+$$
+
+used in SVM, robust, insensitive to noise and outliers---classification
+
+### Entropy
+
+Entropy is a measure of the randomness in a system.
+
+cross-entropy: A random variable compares true distribution A with approximated distribution B
+
+$H(P,Q)=-\sum_xP(x)\log Q (x)$
+
+relative entropy: Kullback–Leibler divergence, a measure of how one probability distribution is different from a second, reference probability distribution. $KL(P|Q)=\sum_xP(x)\log\frac{P(x)}{Q(x)}$
 
 ## Overfitting and Underfitting
 

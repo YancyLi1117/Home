@@ -90,6 +90,9 @@ Their separate CDFs and PMFs (e.g., P(X ≤ x)) are referred to as marginal CDFs
 
 The covariance of random variables X and Y is $Cov(X,Y)=E((X−EX)(Y −EY))$, [-∞,∞]
 
+$Cov=\frac{1}{n-1}\sum_{i=1}^n(X_i-\overline{X})(Y_i-\overline{Y})$, ([Why cov denominator is n-1, cor is n-2](https://www.zhihu.com/question/326157416/answer/698480209), [sample variance df is n-1](https://www.zhihu.com/question/20099757/answer/26586088))
+
+
 We can use covariance to compute the variance of sums:
 
 $$
