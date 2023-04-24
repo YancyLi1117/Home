@@ -10,6 +10,8 @@ toc: true
 
 A good website to collect the interview question: [click here](https://northern-dracopelta-98c.notion.site/5b22e124e16d4b2d937940367ca20eb0?v=19feabb85e9e4b54bc498579b3c7f1c5&p=7879d5e47e184904b3c3d52be05de8c7&pm=s)
 
+The mindmap of Machine Learning: [click here](https://gitmind.com/app/docs/mzicak4n)
+
 ## AI ML DL
 
 Artificial Intelligence: Algorithms enabled by constraints, exposed by representations that support models, and targeted at thinking, perception, and action.
@@ -135,7 +137,7 @@ k-fold cv: Shuffle the dataset randomly---Split the dataset into k groups---For 
 
 leave one out cv: 100 data, 99 as training, 1 as validation, 100 times
 
-**bootstrap**: resamples a single data set to create many simulated samples. The probability of the sample is not selected: 
+**bootstrap**: resamples a single data set to create many simulated samples. The probability of the sample is not selected:  [The deduction](https://notability.com/n/149D~yQjh2hcnQf0ECydp0)
 
 $$
 (1-\frac{1}{m})^m, \lim(1-\frac{1}{m})^m \rightarrow\frac{1}{e}=36.8\%
