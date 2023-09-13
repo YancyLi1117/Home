@@ -34,8 +34,9 @@ permalink: /about/DS
 
 ### **CONVSET Enterprise Information Website** --- *Python, SQL, JavaScript, Neo4j* `Mar. ~ Jun. 2021 | Shanghai, China`
  - Crawled the information of all A-share listed companies from relevant websites. Designed and maintained the database on Amazon RDS with **MySQL** and display the stock information by **ECharts**
- - Utilized **Bi-LSTM-CRF** model to recognize the named entity and extracted the features of the executives. Storage the features by **Neo4j** and visualized the executive network by **D3** on the website
- 
+ - Utilized **Bi-LSTM-CRF** model to recognize the named entity and extracted the features of the executives. Storage the features by **Neo4j** and visualized the executive network by **D3.js** on the website
+
+
 ### **Product Launch Analysis Based on Amazon Review** ---  *Python*  `Mar. 2020 | Shanghai, China`
  - Used **Latent Dirichlet Allocation** to extract the commodity characteristics discussed in 50,000 comments, and drew the word cloud
  - Quantified the emotional tendency in the reviews by **byte-level multiplicative LSTM** trained on Amazon reviews. Studied which product functions are more popular with consumers
